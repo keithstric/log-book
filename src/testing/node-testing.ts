@@ -13,5 +13,5 @@ logger.info('This is an info message', paramObj);
 logger.verbose('This is an verbose message', [paramObj, paramObj]);
 logger.debug('This is a debug message', paramObj);
 logger.silly('This is a silly message', paramObj);
-logger.error('This is an error message', new Error('Fake error'), paramObj);
+logger.error('This is a fake error message', new Error('Fake error'), paramObj);
 

@@ -24,6 +24,10 @@ export class ConsoleTransport extends AbstractTransport {
 		this.logWithDate = logWithDate;
 	}
 
+	/**
+	 * If this module is running in a node instance, then return true
+	 * otherwise return false
+	 */
 	get isTerminal() {
 		try {
 			return !window;

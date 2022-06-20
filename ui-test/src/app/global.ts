@@ -1,6 +1,6 @@
 import {LogBook, LogLevel, ConsoleTransport, HttpTransport} from 'log-book';
+export {LogLevel};
 
-export {LogLevel} from 'log-book';
 export const Logger = new LogBook({
   logLevel: LogLevel.silly,
   transports: [

@@ -1,6 +1,6 @@
 import {AbstractTransport} from './abstract-transport';
-import {LogEntry} from './log-entry';
-import {LogLevel} from './logger.interface';
+import {LogEntry} from '../log-entry';
+import {LogLevel} from '../logger.interface';
 
 export interface HttpTransportConfig {
 	logWithDate: boolean;

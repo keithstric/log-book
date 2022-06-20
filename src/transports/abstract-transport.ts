@@ -1,5 +1,5 @@
-import {LogEntry} from './log-entry';
-import {FormattedMessage, LogLevel} from './logger.interface';
+import {LogEntry} from '../log-entry';
+import {FormattedMessage, LogLevel} from '../logger.interface';
 
 export abstract class AbstractTransport {
 
